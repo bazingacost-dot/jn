@@ -1,0 +1,14 @@
+@media (max-width: 900px) {
+  .gallery-layout { grid-template-columns: 1fr; }
+  .reference-grid { grid-template-columns: repeat(4, 1fr); }
+  .gallery-detail { display: none; }
+}
+
+@media (max-width: 620px) {
+  .gallery-app { padding: 20px 15px 28px; }
+  .gallery-hero { min-height: 205px; padding: 21px; }
+  .gallery-hero h2 { font-size: 27px; }
+  .gallery-orbit { width: 65px; height: 65px; margin-right: 0; font-size: 25px; }
+  .reference-grid { grid-template-columns: repeat(2, 1fr); }
+  .os-preview { height: 78px; }
+}
